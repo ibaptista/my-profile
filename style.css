@@ -1,0 +1,203 @@
+body {
+	background-color: rgb(240, 240, 240);
+}
+
+h1 {
+	color: #9F0437;
+	font-size: 50px;
+	font-family: Geneva;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	color: #9F0437;
+	font-size: 22px;
+	font-family: Geneva;
+}
+
+h3 {
+	color: #9F0437;
+	font-size: 18px;
+	font-family: Geneva;
+}
+
+h4 {
+	color: rgb(120, 120, 120);
+	font-family: Geneva;
+	font-style: italic;
+	font-size: 15px;
+}
+
+p {
+	color: #606060;
+	font-family: Geneva;
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.container {
+	width: 900px;
+	margin: 20px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+.bar-menu {
+	overflow: hidden;
+	background-color: #9F0437;
+	position: relative;
+	margin: 0px 30px;
+	border-radius: 4px;
+	padding: 0px 30px;
+}
+
+.bar-menu a {
+	float: left;
+	display: block;
+	font-family: Geneva;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	width: 20%;
+	padding: 12px 0px;
+}
+
+.bar-menu a:hover {
+	background-color: white;
+	color: #9F0437;
+}
+
+.card-white {
+	background-color: white;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+	margin: 30px 30px;
+	text-align: center;
+}
+
+.img-round {
+	border-radius: 50%;
+}
+
+#paragraph-intro {
+	font-size: 16px;
+	padding: 10px 50px;
+}
+
+.col-container {
+	display: flex;
+	width: 100%;
+}
+
+.card-small {
+	flex: 1;
+	padding: 10px 15px 40px;
+	margin: 10px 20px 0px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  	transition: 0.3s;  
+  	position: relative;
+}
+
+.card-small:hover {
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.3);
+}
+
+.container-small {
+	margin-top: 20px;
+}
+
+.list-vertical {
+	color: #606060;
+	font-family: Geneva;
+	font-size: 12px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.btn-grey {
+	background-color: rgb(180, 180, 180);
+	color: white;
+	padding: 10px;
+	font-family: Geneva;
+	font-size: 14px;
+	margin: 10px 10px 0px;
+}
+
+.btn-grey:hover {
+	background-color: white;
+	color: #9F0437;
+}
+
+#home {
+	margin-top: 0px;
+}
+
+.fab fa-linkedin-in {
+	font-size: 50px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.fa-linkedin-in {
+	border-radius: 4px;
+	font-size: 25px;
+	padding: 8px;
+	background-color: rgba(0, 0, 0, .2);
+	color: white;
+}
+
+.fa-linkedin-in:hover {
+	background-color: white;
+	color: #9F0437;
+}
+
+.fa-github {
+	border-radius: 4px;
+	font-size: 25px;
+	padding: 8px;
+	background-color: rgba(0, 0, 0, .2);
+	color: white;
+}
+
+.fa-github:hover {
+	background-color: white;
+	color: #9F0437;
+}
+
+.card-grey {
+	background-color: rgb(200, 200, 200);
+	text-align: center;
+	padding: 10px;
+}
+
+
+
+
+
+
